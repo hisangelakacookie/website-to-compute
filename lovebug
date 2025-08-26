@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Docs</title>
+  <style>
+    body { margin:0; font-family:Arial, sans-serif; background:#f1f3f4; }
+    header {
+      background:#fff; padding:10px 20px; display:flex; align-items:center;
+      border-bottom:1px solid #dadce0;
+    }
+    header img { height:32px; margin-right:10px; }
+    header h1 { font-size:18px; font-weight:500; }
+    iframe { border:none; width:100%; height:calc(100vh - 60px); }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_document_x16.png">
+    <h1>Untitled document - Google Docs</h1>
+  </header>
+
+  <!-- PROXY goes here instead of discord.com -->
+  <iframe src="https://your-discord-proxy-url-here" allow="camera; microphone"></iframe>
+</body>
+</html>
